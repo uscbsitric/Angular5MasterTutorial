@@ -13,6 +13,7 @@ import { HeroFormComponent } from './hero-form/hero-form.component';
   imports: [
     BrowserModule,
     FormsModule // because template-driven forms are in their own module, you need to add the FormsModule to the array of imports for the application module before you can use Forms
+                // this gives the application access to all of the template-driven forms features, including ngModel.
   ],
   providers: [],
   bootstrap: [AppComponent]
