@@ -32,7 +32,7 @@ export class HeroFormComponent implements OnInit {
 
 
   // TO DO: Remove this when we're done
-  getDiagnostic()
+  get diagnostic()
   {
     return JSON.stringify(this.model);
   }
